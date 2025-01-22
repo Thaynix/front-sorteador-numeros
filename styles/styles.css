@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-01: #040E1F;
+    --color-02: #053A2A;
+    --navbar-text: #F5F5F5;
+
+}
+
+.navbar {
+    background-image:  linear-gradient( to right, var(--color-01), var(--color-02)); 
+}
+
+.text-navbar {
+    color: var(--navbar-text);
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:700 ;
+    font-size: 1.5rem;
+}
+
+.content-form {
+    background:  linear-gradient( to right, var(--color-01), var(--color-02));
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.text-title {
+    color: var(--navbar-text);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:700 ;
+    font-size: 2rem;
+    text-align: center;
+}

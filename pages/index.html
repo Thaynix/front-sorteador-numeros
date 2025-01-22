@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Números</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+     <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../media/exemplo.png" alt="Logo" width="50" class="d-inline-block align-text-center">
+            <span class="text-navbar">exemplo</span>
+            <a class="nav-link text-white d-flex align-content-end" id="linkListagem" href="listagem.html">Listagem de Usuários</a>
+            <button class="btn btn-danger" onclick="logout()">Sair</button>
+
+          </a>
+        </div>
+      </nav>
+    
+      <div class="container content-form mt-5">
+      <div class="row">
+        <div class="col">
+        
+          <h1 class="text-title">JOGADOR E NÚMEROS DA SORTE</h1>
+        
+          <div id="numeros" class="mt-4 mb-4 p-3 border rounded bg-light fs-3 fw-bold text-num text-center ">
+            Clique no botão para gerar os números
+          </div>
+        
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Seu nome">
+            <label for="floatingInput">NOME</label>
+          </div>
+        
+          <div class="form-floating">
+            <input type="telephone" class="form-control" id="floatingInput" placeholder="Telephone">
+            <label for="floatingInput">CONTATO</label>
+          </div>
+          
+          <button class="btn mt-3 btn-primary btn-lg" onclick="gerarNumeros()">Gerar Números e enviar</button>
+        
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
+ 
